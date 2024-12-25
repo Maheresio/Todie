@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421086908546",
+    "project_id": "todie-32e02",
+    "storage_bucket": "todie-32e02.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421086908546:android:2951a4b67549d53a3ca49b",
+        "android_client_info": {
+          "package_name": "com.maheresio.todo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGdl_jfJQ5Q1H67pkHm9db94aE8264VNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
