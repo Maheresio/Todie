@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/core/utils/app_constants.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../../../../../core/utils/app_constants.dart';
 
 class CustomElevatedButton extends StatelessWidget {
   const CustomElevatedButton({super.key, required this.text, this.onPressed});
@@ -9,7 +11,8 @@ class CustomElevatedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: double.infinity,
+      width: 280.w,
+      height: AppConstants.heightSize40,
       child: ElevatedButton(
         style: ButtonStyle(
           shape: WidgetStatePropertyAll(
@@ -26,6 +29,9 @@ class CustomElevatedButton extends StatelessWidget {
         onPressed: onPressed,
         child: Text(
           text,
+          style: TextStyle(
+            color: Colors.white,
+          ),
         ),
       ),
     );

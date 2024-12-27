@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/features/auth/enums.dart';
+
+import '../../enums.dart';
 
 class AuthProvider extends ChangeNotifier {
   //controllers and form key

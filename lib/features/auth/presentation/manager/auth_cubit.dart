@@ -1,7 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:todo_app/core/error/handle_exceptions.dart';
-import 'package:todo_app/features/auth/data/repository/auth_repo.dart';
+
+import '../../../../core/error/handle_exceptions.dart';
+import '../../data/repository/auth_repo.dart';
 
 part 'auth_state.dart';
 

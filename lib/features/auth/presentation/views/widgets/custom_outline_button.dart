@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:todo_app/core/utils/app_constants.dart';
+
+import '../../../../../core/utils/app_constants.dart';
 
 class CustomOutlineButton extends StatelessWidget {
   const CustomOutlineButton(
@@ -13,6 +14,7 @@ class CustomOutlineButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity,
+      height: AppConstants.heightSize40,
       child: OutlinedButton.icon(
         style: ButtonStyle(
           shape: WidgetStatePropertyAll(
