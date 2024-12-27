@@ -12,7 +12,20 @@
           "package_name": "com.maheresio.todo_app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "421086908546-bnd1jfjqupmenkirujhdo49u398st445.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maheresio.todo_app",
+            "certificate_hash": "b39781027e8727095ec90d195b66a99faa573edd"
+          }
+        },
+        {
+          "client_id": "421086908546-lelecbn5s0jvqkr1ovlmk30htn69h7ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAGdl_jfJQ5Q1H67pkHm9db94aE8264VNA"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421086908546-lelecbn5s0jvqkr1ovlmk30htn69h7ev.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "421086908546-bqrrkpt4mliksgecmistdsl6nlg18l33.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.maheresio.todoApp"
+              }
+            }
+          ]
         }
       }
     }
